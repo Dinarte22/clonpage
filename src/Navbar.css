@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d1117;
+    padding: 12px 25px;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.links a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: grey;
+}
+.buscar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #111720;
+    border: 1px solid #2a3544;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.key {
+    background-color: #1e2632;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #2a3544;
+}
+
+.iconos{
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.7;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 850px) {
+
+    /* Ocultar menú normal */
+    .links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 65px;
+        left: 0;
+        background: #0d1117;
+        width: 100%;
+        height: 100%;
+        padding: 40px 25px;
+        z-index: 500;
+    }
+
+    /* Mostrar cuando tenga clase OPEN */
+    .links.open {
+        display: flex;
+    }
+
+    /* Botón hamburguesa se muestra */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Links grandes tipo Node.js */
+    .menu a {
+        font-size: 25px;
+        list-style: none;
+        margin: 20px 0;
+        color: white;
+        cursor: pointer;
+    }
+
+    .buscar{
+        display: none;
+    }
+    .iconos{
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
