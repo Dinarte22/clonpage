@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  background: #0d1117;
+  color: white;
+  padding: 20px 0;
+  border-top: 1px solid #2d2d2d;
+  margin-top: 40px;
+}
+
+
+.boton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.botones {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.fondoAzul {
+  color: blue;
+  background-color: grey;
+}
+
+.botonAzul{
+    background-color: #0959aa;
+    color: white;
+}
+
+.fondoVerde {
+  color: green;
+  background-color: grey;
+}
+
+.botonVerde{
+    background-color: green;
+    color: white;
+}
+
+.linksFooter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.linksFooter a {
+  color: #cccccc;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.linksFooter a:hover {
+  color: white;
+}
+
+
+.iconosFooter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.iconosFooter span {
+  font-size: 14px;
+  color: #bbbbbb;
+}
+
+.iconosFooter a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: opacity 0.2s ease;
+}
+
+.iconosFooter a:hover {
+  opacity: 0.7;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
