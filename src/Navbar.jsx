@@ -14,7 +14,7 @@ function Navbar(){
         <div className="navbar">
 
             <img 
-                className="logo" 
+                className="logoN" 
                 src="https://tse2.mm.bing.net/th/id/OIP.Wz4VNrmKVtvq6iYxnZrvlAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
             />
 
@@ -31,7 +31,7 @@ function Navbar(){
             <div className="menu-icon" onClick={abrirMenu}>☰</div>
 
             <button className="buscar">
-                <span>Search</span>
+                <span>🔍 Start typing...</span>
                 <span className="key">K</span>
             </button>
 

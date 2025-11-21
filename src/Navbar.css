@@ -11,7 +11,7 @@ body {
     padding: 12px 25px;
 }
 
-.logo {
+.logoN {
     width: 80px;
     cursor: pointer;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .links a:hover {
-    color: grey;
+    background-color:  grey;
 }
 .buscar {
     display: flex;

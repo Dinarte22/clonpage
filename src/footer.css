@@ -7,6 +7,11 @@
   margin-top: 40px;
 }
 
+.cuerpoFooter{
+  display: flex;
+  gap: 3px;
+}
+
 
 .boton {
   display: flex;
@@ -15,6 +20,7 @@
 }
 
 .botones {
+  width: 160px;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 14px;
@@ -42,7 +48,7 @@
 
 .linksFooter {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
 }
 
